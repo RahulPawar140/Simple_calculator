@@ -1,0 +1,130 @@
+.parent {
+    height: 900px;
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.calculator {
+    height: 760px;
+    width: 380px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: rgb(23, 17, 29);
+    display: inline-block;
+}
+
+.history {
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.history button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(23, 17, 29);
+    color: white;
+}
+
+.screen {
+    height: 200px;
+    width: 380px;
+    margin-top: 40px;
+    color: white;
+}
+
+.screen input {
+    width: 373px;
+    height: 90px;
+    font-size: 30px;
+    background-color: rgb(23, 17, 29);
+    color: white;
+    font-weight: bold;
+    font-family: Orbitron;
+    text-align: right;
+}
+
+.btns {
+    height: 390px;
+    width: 380px;
+}
+
+.btns button {
+    height: 70px;
+    width: 70px;
+    margin: 10px 10px 10px 10px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+#bt {
+    background-color: #f96772;
+    color: white;
+}
+
+#peach {
+    color: #f96772;
+}
+
+#black {
+    color: black;
+}
+
+#zero {
+    width: 160px;
+    border-radius: 35px;
+}
+
+.histscreen {
+    height: 760px;
+    width: 380px;
+    margin-top: 50px;
+}
+
+.histhead {
+    height: 30px;
+    width: 320px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    background-color: rgb(23, 17, 29);
+    color: white;
+}
+
+#historyDiv {
+    height: 610px;
+    width: 380px;
+    background-color: rgb(23, 17, 29);
+    overflow: auto;
+}
+
+.his {
+    border: 1px solid white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Orbitron;
+    color: white;
+    text-align: right;
+}
+
+.clearall {
+    height: 47px;
+    width: 240px;
+    padding-top: 13px;
+    padding-left: 140px;
+    background-color: rgb(23, 17, 29);
+}
+
+.clearall button {
+    border-radius: 30px;
+    height: 30px;
+    width: 100px;
+    background-color: #f96772;
+    color: white;
+}
